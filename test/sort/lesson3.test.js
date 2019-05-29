@@ -1,5 +1,4 @@
 import sort from '../../code/sort/lesson3'
-import getFailedSnapshotTests from '_jest-util@24.7.1@jest-util/build/getFailedSnapshotTests';
 
 test('sort:input2', () => {
   expect(sort([3, 6, 9, 1])).toBe(3)
