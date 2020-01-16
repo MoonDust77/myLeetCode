@@ -27,5 +27,11 @@ export default (str) => {
     }
     return arr[0]
   }
-  return comb(code)
+  if (code.length === 0) {
+    return []
+  } else if (code.length === 1) {
+    return code[0].split('')
+  } else {
+    return comb(code)
+  }
 }
