@@ -1,3 +1,4 @@
+// 164
 // export default (arr) => {
 //   // 如果数组长度小于2返回0
 //   if (arr.length < 2) {

@@ -1,3 +1,4 @@
+// 选择排序的实现
 export default (arr) => {
   for (let i = 0, len = arr.length, min; i < len; i++) {
     min = arr[i]

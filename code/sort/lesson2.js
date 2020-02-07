@@ -2,7 +2,7 @@
 //   return arr.sort((a, b) => b - a)[k - 1]
 // }
 
-// 冒泡排序变种
+// 冒泡排序变种　215
 export default (arr, k) => {
   let len = arr.length - 1
   for (let i = len, temp; i > len - k; i--) {

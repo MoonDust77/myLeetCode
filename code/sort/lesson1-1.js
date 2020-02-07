@@ -1,3 +1,4 @@
+// 冒泡排序的实现
 export default (arr) => {
   for(let i = arr.length - 1, tmp; i > 0; i--) {
     for (let j = 0; j < i; j++) {
